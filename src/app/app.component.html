@@ -1,0 +1,10 @@
+<!-- <div [ngStyle]="{'background-color': bgColor}" style="width: 50%; height: 50px;">
+   This is some text!
+</div> <br>
+ <button (click)="changeColor()"> Change Color</button>  -->
+
+<app-header [event]="clickColor"></app-header>
+<app-admin 
+   (colorChanged)="colorWasChanged($event)"></app-admin>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

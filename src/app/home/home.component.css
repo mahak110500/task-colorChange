@@ -1,0 +1,87 @@
+/* .slick-slider {  
+     width: 90%;  
+     margin: auto;  
+}   */
+
+
+/* .slider-container {
+     display: flex;
+     width: 1100px;
+} */
+
+.btn-box .btn-1 {
+    background-color: #295310;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-box .btn-2 {
+    background-color: #f38d18;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+
+.slider-can{
+    margin-top: 90px;
+    display: flex;
+    text-align: center;
+}
+
+.detail-box {
+    display: inline-block;
+  
+}
+
+.img-box  img{
+    width: 500px;
+}
+
+.back-box {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    width: 500px;
+    padding: 50px;
+    border: 1px solid rgb(166, 201, 230);
+    background:rgb(166, 201, 230);
+    opacity:50%;
+  }
+
+
+::ng-deep .owl-theme .owl-dots .owl-dot span {
+    background:#295310 !important;
+    /* dots color*/
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background:#FCAC45 !important;
+    /*active and on hover color*/
+}
+
+.container px-0.owl-prev{
+    background-color: #f38d18;
+}
+
+.owl-next{
+    background-color: #295310;
+}
+
+
+owl-nav ng-star-inserted{
+    background-color: #295310;
+}
+
